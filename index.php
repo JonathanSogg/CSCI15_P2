@@ -35,7 +35,7 @@
 
    			$pw = '';
  
-			for ($i = 1; $i <= $_POST["nwords"]; $i++) 
+			for ($i = 1; $i <= 4; $i++) 
 			{
 				// Get random word from $lines
 				$key = rand(1,20);
@@ -43,7 +43,7 @@
 				if ((preg_match("/^[a-z]+$/", $word_list[$key]) == 1)) 
 				{
 					// String only contains a to z characters
-					$pw = $pw . $word_list[$key];
+					$pw = $pw . "-" . $word_list[$key];
 				}
 			}
 		echo $pw;
