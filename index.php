@@ -46,8 +46,7 @@
 					$pw = $pw . $word_list[$key] . " ";
 				}
 			}
-
-			trim($pw)
+		echo (int)$_POST["nwords"];
 		?>
 
 	<div class='container'>
