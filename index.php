@@ -35,7 +35,7 @@
 
    			$pw = '';
  
-			$nowords = intval($_POST['nwords']);			
+			$nowords = intval($_GET['nwords']);			
 
 			for ($i = 1; $i <= $nowords; $i++) 
 			{
@@ -48,7 +48,7 @@
 					$pw = $pw . $word_list[$key] . " ";
 				}
 			}
-		echo intval($_POST["nwords"]);
+		echo intval($_GET["nwords"]);
 		?>
 
 	<div class='container'>
