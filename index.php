@@ -42,8 +42,8 @@
 				'^',
 				'&',
 				'*',
-				'\(',
-				'\)'
+				'(',
+				')'
 				);			
 
    			$pw = '';
@@ -96,6 +96,13 @@
 			<input type='submit' class='btn btn-default' value='Generate New'>
 					
 		</form>
+
+		<p class='description'>
+			Randomly generated passwords have been a common item in web design for many years now. Recently, the webcomic XKCD
+			intriduced a novel method for generating a password that the author claims is much easier for a human to remember and much
+			harder for a computer to guess. This comic was very popular and on this page I have made a generator for the style of passwords
+			suggested. Above you will find the form for generating a new password with the conditions you choose, while below you can read the
+			source comic.</p>
 
 		<p class='details'>
 			<a href='http://xkcd.com/936/'>xkcd password strength</a><br>
