@@ -46,12 +46,13 @@
 					$pw = $pw . $word_list[$key];
 				}
 			}
+		echo $pw;
 		?>
 
 	<div class='container'>
 		<h1>xkcd Password Generator</h1>
 	
-		<p class='password'> <?php echo "Password: "$pw; ?></p>
+		<p class='password'> <?php echo $pw; ?></p>
 		
 		<form>
 			<p class='options'>
