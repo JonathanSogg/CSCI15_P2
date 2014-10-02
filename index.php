@@ -63,10 +63,15 @@
 			}
 
 		if (isset($_POST['add_symbol'])
+		{
 			$pw = $pw . $symbol_list[rand(0,9)];
+		}
 
 		if (isset($_POST['add_number'])
+		{
 			$pw = $pw . rand(0,9);
+		}
+
 		?>
 
 	<div class='container'>
