@@ -35,7 +35,7 @@
 
    			$pw = '';
  
-			for ($i = 1; $i <= $_POST[nwords]; $i++) 
+			for ($i = 1; $i <= $_POST["nwords"]; $i++) 
 			{
 				// Get random word from $lines
 				$key = rand(1,20);
