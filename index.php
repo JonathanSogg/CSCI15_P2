@@ -62,12 +62,12 @@
 				}
 			}
 
-		if (!empty($_POST['add_symbol'])
+		if (!empty($_GET['add_symbol'])
 		{
 			$pw = $pw . $symbol_list[rand(0,9)];
 		}
 
-		if (!empty($_POST['add_number'])
+		if (!empty($_GET['add_number'])
 		{
 			$pw = $pw . rand(0,9);
 		}
