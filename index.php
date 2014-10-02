@@ -35,7 +35,7 @@
 
    			$pw = '';
  
-			for ($i = 1; $i <= (int)$_POST["nwords"]; $i++) 
+			for ($i = 1; $i <= intval($_POST["nwords"]); $i++) 
 			{
 				// Get random word from $lines
 				$key = rand(1,20);
@@ -46,7 +46,7 @@
 					$pw = $pw . $word_list[$key] . " ";
 				}
 			}
-		echo (int)$_POST["nwords"];
+		echo intval($_POST["nwords"]);
 		?>
 
 	<div class='container'>
