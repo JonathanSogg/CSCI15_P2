@@ -56,8 +56,7 @@
 	<div class='container'>
 		<h1>xkcd Password Generator</h1>
 	
-		<p class='password'>
-			diagram-simply-feed-choice		</p>
+		<p class='password'> <?php echo xkcd_password_generator() ?></p>
 		
 		<form>
 			<p class='options'>
@@ -76,8 +75,6 @@
 			<input type='submit' class='btn btn-default' value='Generate New'>
 					
 		</form>
-		
-		<? echo xkcd_password_generator() ?>
 
 		<p class='details'>
 			<a href='http://xkcd.com/936/'>xkcd password strength</a><br>
