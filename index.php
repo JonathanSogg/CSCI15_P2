@@ -51,7 +51,7 @@
 	<div class='container'>
 		<h1>xkcd Password Generator</h1>
 	
-		<p class='password'> <?php echo $pw ?></p>
+		<p class='password'> <?php echo $pw; ?></p>
 		
 		<form>
 			<p class='options'>
