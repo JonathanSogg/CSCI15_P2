@@ -10,6 +10,8 @@
 </head>
 <body>
 	<?php
+		error_reporting(E_ALL);
+
 		$word_list = Array(
 				'argument',
     				'calculate',
