@@ -10,8 +10,6 @@
 </head>
 <body>
 	<?php
-		error_reporting(E_ALL);
-
 		$word_list = Array(
 				'argument',
     				'calculate',
@@ -64,12 +62,12 @@
 				}
 			}
 
-		if (isset($_POST['add_symbol'])
+		if (!empty($_POST['add_symbol'])
 		{
 			$pw = $pw . $symbol_list[rand(0,9)];
 		}
 
-		if (isset($_POST['add_number'])
+		if (!empty($_POST['add_number'])
 		{
 			$pw = $pw . rand(0,9);
 		}
