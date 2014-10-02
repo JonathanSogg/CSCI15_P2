@@ -62,15 +62,15 @@
 				}
 			}
 
-		//if (!empty($_GET['add_symbol'])
-		//{
-		//	$pw = $pw . $symbol_list[rand(0,9)];
-		//}
+		if ($_GET['add_symbol'] == 'on')
+		{
+			$pw = $pw . $symbol_list[rand(0,9)];
+		}
 
-		//if (!empty($_GET['add_number'])
-		//{
-		//	$pw = $pw . rand(0,9);
-		//}
+		if ($_GET['add_number'] == 'on')
+		{
+			$pw = $pw . rand(0,9);
+		}
 
 		?>
 
