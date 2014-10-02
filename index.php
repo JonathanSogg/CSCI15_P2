@@ -32,6 +32,19 @@
     				'liquid',
     				'humor'
 				);
+			
+			$symbol_list = Array(
+				'!',
+				'@',
+				'#',
+				'$',
+				'%',
+				'^',
+				'&',
+				'*',
+				'/(',
+				'/)'
+				);			
 
    			$pw = '';
  
@@ -40,7 +53,7 @@
 			for ($i = 1; $i <= $nowords; $i++) 
 			{
 				// Get random word from $lines
-				$key = rand(1,20);
+				$key = rand(0,19);
 
 				if ((preg_match("/^[a-z]+$/", $word_list[$key]) == 1)) 
 				{
@@ -48,7 +61,12 @@
 					$pw = $pw . $word_list[$key] . " ";
 				}
 			}
-		echo intval($_GET["nwords"]);
+
+		if (isset($_POST['add_symbol'])
+			$pw = $pw . $symbol_list[rand(0,9)];
+
+		if (isset($_POST['add_number'])
+			$pw = $pw . rand(0,9);
 		?>
 
 	<div class='container'>
