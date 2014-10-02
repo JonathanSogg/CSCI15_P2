@@ -10,9 +10,7 @@
 </head>
 <body>
 	<?php
-		function xkcd_password_generator() 
-		{
-			$word_list = Array(
+		$word_list = Array(
 				'argument',
     				'calculate',
     				'middle',
@@ -48,15 +46,12 @@
 					$pw = $pw . $word_list[$key];
 				}
 			}
- 
-			return $pw;
-		}
-	?>
+		?>
 
 	<div class='container'>
 		<h1>xkcd Password Generator</h1>
 	
-		<p class='password'> <?php echo xkcd_password_generator() ?></p>
+		<p class='password'> <?php echo $pw ?></p>
 		
 		<form>
 			<p class='options'>
