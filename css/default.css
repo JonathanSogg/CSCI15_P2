@@ -33,7 +33,7 @@ p.password {
 }
 
 div.container {
-	width: 100%;
+	max-width: 800px;	
 	padding: 0px;
 	text-align: left;
 	background-color: #fff;
