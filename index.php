@@ -5,8 +5,8 @@
 	<title>xkcd Password Generator</title>
 	<meta charset='utf-8'>
 	
-	<link href='css/default.css' rel="stylesheet">
-	
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/base-min.css">
 </head>
 <body>
 	<?php
@@ -78,7 +78,7 @@
 	
 		<p class='password'> <?php echo $pw; ?></p>
 		
-		<form>
+		<form class="pure-form">
 			<p class='options'>
 			
 				<label for='word_count'>No. of Words</label>
