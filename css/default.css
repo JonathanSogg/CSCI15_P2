@@ -30,7 +30,7 @@ div.container {
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;	
-	padding: 0px;
+	padding: 8px;
 	background-color: #fff;
 	overflow: auto;
 }
