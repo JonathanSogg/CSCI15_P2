@@ -5,8 +5,9 @@
 	<title>xkcd Password Generator</title>
 	<meta charset='utf-8'>
 	
+	<link rel="stylesheet" href="css/default.css">
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/base-min.css">
+
 </head>
 <body>
 	<?php
