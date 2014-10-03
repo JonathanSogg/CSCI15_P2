@@ -18,7 +18,7 @@ body {
 	line-height: 1.88889;
 	color: #555753; 
 	background: #fff url(blossoms.jpg) no-repeat bottom right; 
-	margin: 0; 
+	margin-left: auto; 
 	padding: 0;
 	text-align:center;
 	}
@@ -81,7 +81,7 @@ header {
 
 .container {
 	clear: both; 
-	left-margin: auto; 
+	margin-left: auto; 
 	width: 160px; 
 	float: left;
 	text-align:center;
