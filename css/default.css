@@ -11,9 +11,8 @@ html {
 body {
 	background-color: #e1ddd9;
 	font-size: 12px;
-	font-family: Verdana, Arial, Helvetica, SunSans-Regular, Sans-Serif;
 	color:#564b47;
-	margin: 20px 140px  20px 140px;
+	left-margin: auto;
 	text-align: center;
 }
 
@@ -26,6 +25,11 @@ form {
 p {
 	margin-top: 0px;
 	text-align: center;
+}
+
+p.password {
+	text-size: 16pt;
+	border: 2px solid black;
 }
 
 div.container {
