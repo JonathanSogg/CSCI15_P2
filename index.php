@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title>xkcd Password Generator</title>
+	<title>Jonathan Sogg P2 - DWA15 Generator</title>
 	<meta charset='utf-8'>
 	
 	<link rel="stylesheet" href="css/default.css">
