@@ -5,7 +5,7 @@
 	<title>xkcd Password Generator</title>
 	<meta charset='utf-8'>
 	
-	<link href='//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css' rel="stylesheet">
+	<link href='css/default.css' rel="stylesheet">
 	
 </head>
 <body>
@@ -71,7 +71,6 @@
 		{
 			$pw = $pw . rand(0,9);
 		}
-
 		?>
 
 	<div class='container'>
@@ -82,8 +81,8 @@
 		<form>
 			<p class='options'>
 			
-				<label for='number_of_words'># of Words</label>
-				<input maxlength=1 type='text' name='nwords' id='number_of_words' value=''>  (Max 9)
+				<label for='word_count'>No. of Words</label>
+				<input type='text' name='nwords' id='number_of_words' value=''>  (Max 20)
 				<br>
 					
 				<input type='checkbox' name='add_number' id='add_number' > 
@@ -100,7 +99,7 @@
 		<p class='description'>
 			Randomly generated passwords have been a common item in web design for many years now. Recently, the webcomic XKCD
 			intriduced a novel method for generating a password that the author claims is much easier for a human to remember and much
-			harder for a computer to guess. This comic was very popular and on this page I have made a generator for the style of passwords
+			harder for a computer to guess based on "bits of entropy". This comic was very popular and on this page I have made a generator for the style of passwords
 			suggested. Above you will find the form for generating a new password with the conditions you choose, while below you can read the
 			source comic.</p>
 
