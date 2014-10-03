@@ -28,7 +28,8 @@ p {
 }
 
 div.container {
-	max-width: 800px;	
+	max-width: 800px;
+	left-margin: auto;	
 	padding: 0px;
 	text-align: left;
 	background-color: #fff;
@@ -36,6 +37,7 @@ div.container {
 }
 
 div.password {
+	left-margin: auto;
 	text-size: 20pt;
 	border: 2px solid black;
 	width: 50%;
