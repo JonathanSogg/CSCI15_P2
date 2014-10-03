@@ -77,7 +77,9 @@
 	<div class='container'>
 		<h1>xkcd Password Generator</h1>
 	
-		<p class='password'> <?php echo $pw; ?></p>
+		<div class="password">
+			<p'> <?php echo $pw; ?></p>
+		</div>
 		
 		<form class="pure-form">
 			<p class='options'>

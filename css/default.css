@@ -27,17 +27,18 @@ p {
 	text-align: center;
 }
 
-p.password {
-	text-size: 16pt;
-	border: 2px solid black;
-}
-
 div.container {
 	max-width: 800px;	
 	padding: 0px;
 	text-align: left;
 	background-color: #fff;
 	overflow: auto;
+}
+
+div.password {
+	text-size: 20pt;
+	border: 2px solid black;
+	width: 50%;
 }
 
 h1 {
